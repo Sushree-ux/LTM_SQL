@@ -1,0 +1,48 @@
+Table Name: employee
+empID int
+empName string
+salary int
+department string
+location string
+bonus decimal
+
+Practice Questions:
+----------------------
+
+1. Insert 5 records into the table.
+
+2. Select all employees and print the record as follows:
+	12345      Sanjay        15000        IT        Chennai      546.35
+	45678      Abhishek      12000        HR        Hyd          123.45
+	45679      Sneha         11000        Fin       BANG         123.45
+
+3. Display all employee details between a salary range(minSal and MaxSal should be user input) with the below format.
+
+4. Employee details between salary 13000 to 15000:
+	12345   Sanjay    15000    Chennai   546.35
+
+5. Display all employees with salary sorted in ascending/descending order.
+
+6. Add 5% to the salary and show the employee details.
+
+7. Add 10% to the bonus amount where the salary is less than 15000 and add 5% to bonus amount where salary >= 15000.
+
+8. Deduct 10% from the salary and show the employee details.
+
+9. Delete the first record where the salary is between 12000 to 15000 and display the employee details.
+
+10. Update the employee whose name starts with “S”.
+
+11. Update the salary for employees between salary range(minRange and MaxRange are user input).
+
+12. Delete the employees where salary is greater than <userInput> and bonus is less than <userInput>.
+
+13. Increase the salary by 5000 of all employees who are working from “Chennai” or “Hyd” location and whose salary is less than 15000.
+
+14. Delete all employees whose salary is even number and location is either “Chennai” or “Hyd”.
+
+15. Update all employee details whose salary is odd number and the location is one of the following location “Bangalore”, “Chennai” and “Hyd”.
+
+16. Update the salary of the first employee who is working from Chennai or Hyd locations. Display all the employee details as per salary descending and bonus ascending order.
+
+17. Delete all the records where location is anyone from BANG, Chennai and Hyd. Display the records as per the salary ascending and bonus in descending order.
